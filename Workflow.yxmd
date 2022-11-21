@@ -1,0 +1,2425 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="283" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>train_data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="case_id" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="V_String" />
+            <Field name="Hospital_code" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="V_String" />
+            <Field name="Hospital_type_code" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="V_String" />
+            <Field name="City_Code_Hospital" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="V_String" />
+            <Field name="Hospital_region_code" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="V_String" />
+            <Field name="Available Extra Rooms in Hospital" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="V_String" />
+            <Field name="Department" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="V_String" />
+            <Field name="Ward_Type" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="V_String" />
+            <Field name="Ward_Facility_Code" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="V_String" />
+            <Field name="Bed Grade" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="V_String" />
+            <Field name="patientid" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="V_String" />
+            <Field name="City_Code_Patient" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="V_String" />
+            <Field name="Type of Admission" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="V_String" />
+            <Field name="Severity of Illness" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="V_String" />
+            <Field name="Visitors with Patient" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="V_String" />
+            <Field name="Age" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="V_String" />
+            <Field name="Admission_Deposit" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="V_String" />
+            <Field name="Stay" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="159">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="774" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Camilla\Downloads\Assignment\healthcare\test_data.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>test_data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="case_id" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\test_data.csv" type="V_String" />
+            <Field name="Hospital_code" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\test_data.csv" type="V_String" />
+            <Field name="Hospital_type_code" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\test_data.csv" type="V_String" />
+            <Field name="City_Code_Hospital" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\test_data.csv" type="V_String" />
+            <Field name="Hospital_region_code" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\test_data.csv" type="V_String" />
+            <Field name="Available Extra Rooms in Hospital" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\test_data.csv" type="V_String" />
+            <Field name="Department" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\test_data.csv" type="V_String" />
+            <Field name="Ward_Type" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\test_data.csv" type="V_String" />
+            <Field name="Ward_Facility_Code" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\test_data.csv" type="V_String" />
+            <Field name="Bed Grade" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\test_data.csv" type="V_String" />
+            <Field name="patientid" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\test_data.csv" type="V_String" />
+            <Field name="City_Code_Patient" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\test_data.csv" type="V_String" />
+            <Field name="Type of Admission" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\test_data.csv" type="V_String" />
+            <Field name="Severity of Illness" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\test_data.csv" type="V_String" />
+            <Field name="Visitors with Patient" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\test_data.csv" type="V_String" />
+            <Field name="Age" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\test_data.csv" type="V_String" />
+            <Field name="Admission_Deposit" size="254" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\test_data.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="164">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="152" y="740" width="446" height="135" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Encoding Categorical Variables</Caption>
+          <Style TextColor="#000000" FillColor="#ffe1e1" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="161">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="330" y="774" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Replace([Hospital_type_code], 'a', '0')" field="Hospital_type_code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Hospital_type_code], 'b', '1')" field="Hospital_type_code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Hospital_type_code], 'c', '2')" field="Hospital_type_code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Hospital_type_code], 'd', '3')" field="Hospital_type_code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Hospital_type_code], 'e', '4')" field="Hospital_type_code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Hospital_type_code], 'f', '5')" field="Hospital_type_code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Hospital_type_code], 'g', '6')" field="Hospital_type_code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Hospital_region_code], 'X', '0')" field="Hospital_region_code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Hospital_region_code], 'Y', '1')" field="Hospital_region_code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Hospital_region_code], 'Z', '2')" field="Hospital_region_code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Department], 'radiotherapy', '0')" field="Department" size="254" type="V_String" />
+                <FormulaField expression="Replace([Department], 'anesthesia', '1')" field="Department" size="254" type="V_String" />
+                <FormulaField expression="Replace([Department], 'gynecology', '2')" field="Department" size="254" type="V_String" />
+                <FormulaField expression="Replace([Department], 'TB &amp; Chest disease', '3')" field="Department" size="254" type="V_String" />
+                <FormulaField expression="Replace([Department], 'surgery', '4')" field="Department" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Type], 'P', '0')" field="Ward_Type" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Type], 'Q', '1')" field="Ward_Type" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Type], 'R', '2')" field="Ward_Type" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Type], 'S', '3')" field="Ward_Type" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Type], 'T', '4')" field="Ward_Type" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Type], 'U', '5')" field="Ward_Type" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Facility_Code], 'A', '0')" field="Ward_Facility_Code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Facility_Code], 'B', '1')" field="Ward_Facility_Code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Facility_Code], 'C', '2')" field="Ward_Facility_Code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Facility_Code], 'D', '3')" field="Ward_Facility_Code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Facility_Code], 'E', '4')" field="Ward_Facility_Code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Type], 'F', '5')" field="Ward_Facility_Code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Type of Admission], 'Emergency', '0')" field="Type of Admission" size="254" type="V_String" />
+                <FormulaField expression="Replace([Type of Admission], 'Trauma', '1')" field="Type of Admission" size="254" type="V_String" />
+                <FormulaField expression="Replace([Type of Admission], 'Urgent', '2')" field="Type of Admission" size="254" type="V_String" />
+                <FormulaField expression="Replace([Severity of Illness], 'Extreme', '0')" field="Severity of Illness" size="254" type="V_String" />
+                <FormulaField expression="Replace([Severity of Illness], 'Moderate', '1')" field="Severity of Illness" size="254" type="V_String" />
+                <FormulaField expression="Replace([Severity of Illness], 'Minor', '2')" field="Severity of Illness" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], '0-10', '0')" field="Age" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], '11-20', '1')" field="Age" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], '21-30', '2')" field="Age" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], '31-40', '3')" field="Age" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], '41-50', '4')" field="Age" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], '51-60', '5')" field="Age" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], '61-70', '6')" field="Age" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], '71-80', '7')" field="Age" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], '81-90', '8')" field="Age" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], '91-100', '9')" field="Age" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], 'Nov-20', '0')" field="Age" size="254" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>Hospital_type_code = Replace([Hospital_type_code], 'a', '0')
+Hospital_type_code ...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="162">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+            <Position x="162" y="774" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldType>Text</FieldType>
+              <Fields orderChanged="False">
+                <Field name="Bed Grade" />
+                <Field name="City_Code_Patient" />
+                <Field name="Age" />
+                <Field name="Stay" />
+                <Field name="case_id" selected="False" />
+                <Field name="Hospital_code" selected="False" />
+                <Field name="Hospital_type_code" selected="False" />
+                <Field name="City_Code_Hospital" selected="False" />
+                <Field name="Hospital_region_code" selected="False" />
+                <Field name="Available Extra Rooms in Hospital" selected="False" />
+                <Field name="Department" selected="False" />
+                <Field name="Ward_Type" selected="False" />
+                <Field name="Ward_Facility_Code" selected="False" />
+                <Field name="patientid" selected="False" />
+                <Field name="Type of Admission" selected="False" />
+                <Field name="Severity of Illness" selected="False" />
+                <Field name="Visitors with Patient" selected="False" />
+                <Field name="Admission_Deposit" selected="False" />
+                <Field name="*Unknown" selected="False" />
+              </Fields>
+              <CopyOutput value="False" />
+              <Expression>IF [_CurrentField_] = Null() THEN ToNumber(0) ELSE [_CurrentField_] ENDIF</Expression>
+              <ChangeFieldType value="False" />
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>IF [_CurrentField_] = Null() THEN ToNumber(0) ELSE [_CurrentF...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+        </Node>
+        <Node ToolID="163">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="258" y="774" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Hospital_code" selected="True" type="Double" size="8" />
+                <SelectField field="City_Code_Hospital" selected="True" type="Double" size="8" />
+                <SelectField field="Available Extra Rooms in Hospital" selected="True" type="Double" size="8" />
+                <SelectField field="Bed Grade" selected="True" type="Double" size="8" />
+                <SelectField field="patientid" selected="True" type="Double" size="8" />
+                <SelectField field="City_Code_Patient" selected="True" type="Double" size="8" />
+                <SelectField field="Visitors with Patient" selected="True" type="Double" size="8" />
+                <SelectField field="Admission_Deposit" selected="True" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="160">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="402" y="774" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="True">
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_case_id" selected="True" input="Right_" type="Double" size="8" />
+                    <SelectField field="Left_Hospital_code" selected="True" input="Left_" />
+                    <SelectField field="Right_Hospital_type_code" selected="True" input="Right_" type="Double" size="8" />
+                    <SelectField field="Right_City_Code_Hospital" selected="True" input="Right_" />
+                    <SelectField field="Right_Hospital_region_code" selected="True" input="Right_" type="Double" size="8" />
+                    <SelectField field="Left_Available_Extra_Rooms_in_Hospital" selected="True" input="Left_" />
+                    <SelectField field="Right_Department" selected="True" input="Right_" type="Double" size="8" />
+                    <SelectField field="Right_Ward_Type" selected="True" input="Right_" type="Double" size="8" />
+                    <SelectField field="Left_Visitors_with_Patient" selected="True" input="Left_" />
+                    <SelectField field="Right_Ward_Facility_Code" selected="True" input="Right_" type="Double" size="8" />
+                    <SelectField field="Right_Bed Grade" selected="True" input="Right_" />
+                    <SelectField field="Right_patientid" selected="True" input="Right_" />
+                    <SelectField field="Right_City_Code_Patient" selected="True" input="Right_" />
+                    <SelectField field="Right_Type of Admission" selected="True" input="Right_" type="Double" size="8" />
+                    <SelectField field="Right_Severity of Illness" selected="True" input="Right_" type="Double" size="8" />
+                    <SelectField field="Right_Age" selected="True" input="Right_" type="Double" size="8" />
+                    <SelectField field="Left_Admission_Deposit" selected="True" input="Left_" />
+                    <SelectField field="Right_Hospital_code" selected="False" rename="Right_Hospital_code" input="Right_" />
+                    <SelectField field="Right_Available Extra Rooms in Hospital" selected="False" input="Right_" />
+                    <SelectField field="Right_Visitors with Patient" selected="False" input="Right_" />
+                    <SelectField field="Right_Admission_Deposit" selected="False" rename="Right_Admission_Deposit" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="174">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="486" y="774" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File FileFormat="19" MaxRecords="">C:\Users\Camilla\Downloads\Assignment\healthcare\Joined_test_data.yxdb</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <NoSpatialIndex>False</NoSpatialIndex>
+                <SaveSource>True</SaveSource>
+                <WriteCompatibleVersion>False</WriteCompatibleVersion>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Joined_test_data.yxdb</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="178">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="644" y="740" width="523" height="219" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Length of Stay Prediction with Decision Tree Model</Caption>
+          <Style TextColor="#000000" FillColor="#ffe1e1" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="177">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="654" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\Camilla\Downloads\Assignment\healthcare\Joined_test_data.yxdb</File>
+              <FormatSpecificOptions />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Joined_test_data.yxdb</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="case_id" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\test_data.csv" type="Double" />
+                <Field name="Hospital_code" source="CrossTab:Header:Name:Hospital_code:Sum:" type="Double" />
+                <Field name="Hospital_type_code" source="Formula: Replace([Hospital_type_code], 'g', '6')" type="Double" />
+                <Field name="City_Code_Hospital" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\test_data.csv" type="Double" />
+                <Field name="Hospital_region_code" source="Formula: Replace([Hospital_region_code], 'Z', '2')" type="Double" />
+                <Field name="Available_Extra_Rooms_in_Hospital" source="CrossTab:Header:Name:Available Extra Rooms in Hospital:Sum:" type="Double" />
+                <Field name="Department" source="Formula: Replace([Department], 'surgery', '4')" type="Double" />
+                <Field name="Ward_Type" source="Formula: Replace([Ward_Type], 'U', '5')" type="Double" />
+                <Field name="Visitors_with_Patient" source="CrossTab:Header:Name:Visitors with Patient:Sum:" type="Double" />
+                <Field name="Ward_Facility_Code" source="Formula: Replace([Ward_Type], 'F', '5')" type="Double" />
+                <Field name="Bed Grade" source="Formula: IF [_CurrentField_] = Null() THEN ToNumber(0) ELSE [_CurrentField_] ENDIF" type="Double" />
+                <Field name="patientid" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\test_data.csv" type="Double" />
+                <Field name="City_Code_Patient" source="Formula: IF [_CurrentField_] = Null() THEN ToNumber(0) ELSE [_CurrentField_] ENDIF" type="Double" />
+                <Field name="Type of Admission" source="Formula: Replace([Type of Admission], 'Urgent', '2')" type="Double" />
+                <Field name="Severity of Illness" source="Formula: Replace([Severity of Illness], 'Minor', '2')" type="Double" />
+                <Field name="Age" source="Formula: Replace([Age], 'Nov-20', '0')" type="Double" />
+                <Field name="Admission_Deposit" source="CrossTab:Header:Name:Admission_Deposit:Sum:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="179">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="654" y="774" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\Camilla\Downloads\Assignment\healthcare\Joined_train_data.yxdb</File>
+              <FormatSpecificOptions />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Joined_train_data.yxdb</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="case_id" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="Double" />
+                <Field name="Hospital_code" source="CrossTab:Header:Name:Hospital_code:Sum:" type="Double" />
+                <Field name="Hospital_type_code" source="Formula: Replace([Hospital_type_code], 'g', '6')" type="Double" />
+                <Field name="City_Code_Hospital" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="Double" />
+                <Field name="Hospital_region_code" source="Formula: Replace([Hospital_region_code], 'Z', '2')" type="Double" />
+                <Field name="Available_Extra_Rooms_in_Hospital" source="CrossTab:Header:Name:Available Extra Rooms in Hospital:Sum:" type="Double" />
+                <Field name="Department" source="Formula: Replace([Department], 'surgery', '4')" type="Double" />
+                <Field name="Ward_Type" source="Formula: Replace([Ward_Type], 'U', '5')" type="Double" />
+                <Field name="Ward_Facility_Code" source="Formula: Replace([Ward_Type], 'F', '5')" type="Double" />
+                <Field name="Bed Grade" source="Formula: IF [_CurrentField_] = Null() THEN ToNumber(0) ELSE [_CurrentField_] ENDIF" type="Double" />
+                <Field name="patientid" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="Double" />
+                <Field name="City_Code_Patient" source="Formula: IF [_CurrentField_] = Null() THEN ToNumber(0) ELSE [_CurrentField_] ENDIF" type="Double" />
+                <Field name="Type of Admission" source="Formula: Replace([Type of Admission], 'Urgent', '2')" type="Double" />
+                <Field name="Severity of Illness" source="Formula: Replace([Severity of Illness], 'Minor', '2')" type="Double" />
+                <Field name="Visitors_with_Patient" source="CrossTab:Header:Name:Visitors with Patient:Sum:" type="Double" />
+                <Field name="Age" source="Formula: Replace([Age], 'Nov-20', '0')" type="Double" />
+                <Field name="Admission_Deposit" source="CrossTab:Header:Name:Admission_Deposit:Sum:" type="Double" />
+                <Field name="Stay" source="Formula: Replace([Stay], 'More than 100 Days', '10')" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="180">
+          <GuiSettings Plugin="Decision_Tree">
+            <Position x="822" y="798" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="curPage">Home</Value>
+              <Value name="curTab">model</Value>
+              <Value name="curToggle">toggle-main</Value>
+              <Value name="display.static">True</Value>
+              <Value name="set_seed_cv">True</Value>
+              <Value name="showClassificationCV">False</Value>
+              <Value name="showWhenTreePlotAvailable">True</Value>
+              <Value name="showWhenAlgorithmAvailable">False</Value>
+              <Value name="use.gini">True</Value>
+              <Value name="use.information">False</Value>
+              <Value name="usesurrogate.0">True</Value>
+              <Value name="usesurrogate.1">False</Value>
+              <Value name="usesurrogate.2">False</Value>
+              <Value name="total.correct">True</Value>
+              <Value name="percent.correct">False</Value>
+              <Value name="model_type">auto</Value>
+              <Value name="auto">True</Value>
+              <Value name="classification">False</Value>
+              <Value name="regression">False</Value>
+              <Value name="tree_summary">Counts</Value>
+              <Value name="Counts">True</Value>
+              <Value name="Proportions">False</Value>
+              <Value name="tree_plot_size">tree.inches</Value>
+              <Value name="tree.inches">True</Value>
+              <Value name="tree.centimeters">False</Value>
+              <Value name="pruning_plot_size">prune.inches</Value>
+              <Value name="prune.inches">True</Value>
+              <Value name="prune.centimeters">False</Value>
+              <Value name="Model Name">Decision_Tree_180</Value>
+              <Value name="Y Var">Stay</Value>
+              <Value name="X Vars">Hospital_code,Hospital_type_code,City_Code_Hospital,Hospital_region_code,Available_Extra_Rooms_in_Hospital,Department,Ward_Type,Ward_Facility_Code,Type of Admission,Severity of Illness,Visitors_with_Patient,Age,Admission_Deposit</Value>
+              <Value name="model.algorithm">rpart</Value>
+              <Value name="posClass">
+              </Value>
+              <Value name="use.weights">False</Value>
+              <Value name="select.weights" />
+              <Value name="splitting_criteria">use.gini</Value>
+              <Value name="surrogate_use">usesurrogate.0</Value>
+              <Value name="surrogate_split_criteria">total.correct</Value>
+              <Value name="min.split">20</Value>
+              <Value name="min.bucket">7</Value>
+              <Value name="xval.folds">10</Value>
+              <Value name="max.depth">20</Value>
+              <Value name="max.bins">
+              </Value>
+              <Value name="set_cp">False</Value>
+              <Value name="cp">0</Value>
+              <Value name="rules">False</Value>
+              <Value name="bands_check">False</Value>
+              <Value name="bands">10</Value>
+              <Value name="subset">False</Value>
+              <Value name="winnow">False</Value>
+              <Value name="GlobalPruning">False</Value>
+              <Value name="fuzzyThreshold">False</Value>
+              <Value name="earlyStopping">False</Value>
+              <Value name="trials">1</Value>
+              <Value name="CF">0.25</Value>
+              <Value name="minCases">2</Value>
+              <Value name="sample">0</Value>
+              <Value name="seed">1</Value>
+              <Value name="use_cv">False</Value>
+              <Value name="numberFolds">5</Value>
+              <Value name="numberTrials">3</Value>
+              <Value name="stratified">False</Value>
+              <Value name="cv_seed">1</Value>
+              <Value name="tree.plot">False</Value>
+              <Value name="Branch Dist">False</Value>
+              <Value name="tree.in.w">5.5</Value>
+              <Value name="tree.in.h">5.5</Value>
+              <Value name="tree.cm.w">13</Value>
+              <Value name="tree.cm.h">14.95</Value>
+              <Value name="tree.graph.resolution">1x</Value>
+              <Value name="tree.pointsize">8</Value>
+              <Value name="prune.plot">False</Value>
+              <Value name="prune.in.w">5.5</Value>
+              <Value name="prune.in.h">5.5</Value>
+              <Value name="prune.cm.w">13</Value>
+              <Value name="prune.cm.h">14.95</Value>
+              <Value name="prune.graph.resolution">1x</Value>
+              <Value name="prune.pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>Decision_Tree_180</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Decision_Tree/Supporting_Macros/Decision_Tree.yxmc" EngineDll="Macro" EngineDllEntryPoint="Decision_Tree/Supporting_Macros/Decision_Tree.yxmc" />
+        </Node>
+        <Node ToolID="181">
+          <GuiSettings Plugin="Score">
+            <Position x="906" y="822" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="modelChoice">Local Model</Value>
+              <Value name="score field">Score</Value>
+              <Value name="is oversampled">False</Value>
+              <Value name="oversampled value">
+              </Value>
+              <Value name="original percent">2</Value>
+              <Value name="log y">False</Value>
+              <Value name="prediction.interval">False</Value>
+              <Value name="interval.level">95</Value>
+              <Value name="append.xdf">False</Value>
+              <Value name="num.records">256000</Value>
+              <Value name="credentials">
+              </Value>
+              <Value name="models">
+              </Value>
+              <Value name="page">
+              </Value>
+              <Value name="errorStatus">
+              </Value>
+              <Value name="modelDetailJSON">
+              </Value>
+              <Value name="modelDetails">{"Name":"","Owner":"","Status":"","Id":"","LastDeployment":"","LastUpdated":"","LatestVersion":"","ActiveVersion":"","NumReplications":"","NumVersions":""}</Value>
+              <Value name="promoteURL">
+              </Value>
+              <Value name="username">
+              </Value>
+              <Value name="model_name">
+              </Value>
+              <Value name="model_owner">
+              </Value>
+              <Value name="apiKey">
+              </Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Score\Supporting_Macros\score-engine.yxmc" EngineDll="Macro" EngineDllEntryPoint="Score\Supporting_Macros\score-engine.yxmc" />
+        </Node>
+        <Node ToolID="190">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1098" y="822" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Camilla\AppData\Local\Temp\Engine_1840_61a98b27d2c5374b8d22f459c25079c9_\Engine_1840_c62dac22479c2b4893fa752b79c1b16f~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="191">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1002" y="822" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Hospital_code" selected="False" />
+                <SelectField field="Hospital_type_code" selected="False" />
+                <SelectField field="City_Code_Hospital" selected="False" />
+                <SelectField field="Hospital_region_code" selected="False" />
+                <SelectField field="Available_Extra_Rooms_in_Hospital" selected="False" />
+                <SelectField field="Department" selected="False" />
+                <SelectField field="Ward_Type" selected="False" />
+                <SelectField field="Visitors_with_Patient" selected="False" />
+                <SelectField field="Ward_Facility_Code" selected="False" />
+                <SelectField field="Bed.Grade" selected="False" />
+                <SelectField field="patientid" selected="False" />
+                <SelectField field="City_Code_Patient" selected="False" />
+                <SelectField field="Type.of.Admission" selected="False" />
+                <SelectField field="Severity.of.Illness" selected="False" />
+                <SelectField field="Age" selected="False" />
+                <SelectField field="Admission_Deposit" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="192">
+          <GuiSettings>
+            <Position x="750" y="774" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="estimation pct">50</Value>
+              <Value name="validation pct">40</Value>
+              <Value name="rand seed">1</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="173">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="164" y="572" width="631" height="151" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Scaling Numeric Variables</Caption>
+          <Style TextColor="#000000" FillColor="#ffe6e6" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="165">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="246" y="606" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="RecordID" />
+              </KeyFields>
+              <DataFields>
+                <Field field="RecordID" selected="False" />
+                <Field field="case_id" selected="False" />
+                <Field field="Hospital_code" selected="True" />
+                <Field field="Hospital_type_code" selected="False" />
+                <Field field="City_Code_Hospital" selected="False" />
+                <Field field="Hospital_region_code" selected="False" />
+                <Field field="Available Extra Rooms in Hospital" selected="True" />
+                <Field field="Department" selected="False" />
+                <Field field="Ward_Type" selected="False" />
+                <Field field="Ward_Facility_Code" selected="False" />
+                <Field field="Bed Grade" selected="False" />
+                <Field field="patientid" selected="False" />
+                <Field field="City_Code_Patient" selected="False" />
+                <Field field="Type of Admission" selected="False" />
+                <Field field="Severity of Illness" selected="False" />
+                <Field field="Visitors with Patient" selected="True" />
+                <Field field="Age" selected="False" />
+                <Field field="Admission_Deposit" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="166">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="318" y="654" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Name" action="GroupBy" rename="Name" />
+                <SummarizeField field="Value" action="Avg" rename="Mean" />
+                <SummarizeField field="Value" action="StdDev" rename="SD" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="167">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="414" y="618" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Name" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Name" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Name" selected="False" rename="Right_Name" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="168">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="498" y="618" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="([Value] - [Mean])/[SD]" field="Stdzd" size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <AnnotationText><![CDATA[Stdzd = ([Value] - [Mean])/[SD]
+]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[Stdzd = ([Value] - [Mean])/[SD]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="169">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="582" y="618" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="RecordID" selected="True" />
+                <SelectField field="Name" selected="True" />
+                <SelectField field="Stdzd" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="170">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="654" y="618" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="RecordID" />
+              </GroupFields>
+              <HeaderField field="Name" />
+              <DataField field="Stdzd" />
+              <Methods>
+                <Method method="Sum" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="CrossTab:Group:Sum:" type="Int32" />
+                <Field name="Visitors_with_Patient" source="CrossTab:Header:Name:Visitors with Patient:Sum:" type="Double" />
+                <Field name="Available_Extra_Rooms_in_Hospital" source="CrossTab:Header:Name:Available Extra Rooms in Hospital:Sum:" type="Double" />
+                <Field name="Admission_Deposit" source="CrossTab:Header:Name:Admission_Deposit:Sum:" type="Double" />
+                <Field name="Hospital_code" source="CrossTab:Header:Name:Hospital_code:Sum:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+        <Node ToolID="171">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="726" y="618" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="RecordID" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="172">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="174" y="606" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>RecordID</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="248" y="54" width="715" height="152" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Scaling Numeric Variables</Caption>
+          <Style TextColor="#000000" FillColor="#ffe6e6" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="330" y="89" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="RecordID" />
+              </KeyFields>
+              <DataFields>
+                <Field field="RecordID" selected="False" />
+                <Field field="case_id" selected="False" />
+                <Field field="Hospital_code" selected="True" />
+                <Field field="Hospital_type_code" selected="False" />
+                <Field field="City_Code_Hospital" selected="False" />
+                <Field field="Hospital_region_code" selected="False" />
+                <Field field="Available Extra Rooms in Hospital" selected="True" />
+                <Field field="Department" selected="False" />
+                <Field field="Ward_Type" selected="False" />
+                <Field field="Ward_Facility_Code" selected="False" />
+                <Field field="Bed Grade" selected="False" />
+                <Field field="patientid" selected="False" />
+                <Field field="City_Code_Patient" selected="False" />
+                <Field field="Type of Admission" selected="False" />
+                <Field field="Severity of Illness" selected="False" />
+                <Field field="Visitors with Patient" selected="True" />
+                <Field field="Age" selected="False" />
+                <Field field="Admission_Deposit" selected="True" />
+                <Field field="Stay" selected="False" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="402" y="137" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Name" action="GroupBy" rename="Name" />
+                <SummarizeField field="Value" action="Avg" rename="Mean" />
+                <SummarizeField field="Value" action="StdDev" rename="SD" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="486" y="101" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Name" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Name" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Name" selected="False" rename="Right_Name" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="570" y="101" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="([Value] - [Mean])/[SD]" field="Stdzd" size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <AnnotationText><![CDATA[Stdzd = ([Value] - [Mean])/[SD]
+]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[Stdzd = ([Value] - [Mean])/[SD]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="654" y="101" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="RecordID" selected="True" />
+                <SelectField field="Name" selected="True" />
+                <SelectField field="Stdzd" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="726" y="101" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="RecordID" />
+              </GroupFields>
+              <HeaderField field="Name" />
+              <DataField field="Stdzd" />
+              <Methods>
+                <Method method="Sum" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="CrossTab:Group:Sum:" type="Int32" />
+                <Field name="Visitors_with_Patient" source="CrossTab:Header:Name:Visitors with Patient:Sum:" type="Double" />
+                <Field name="Available_Extra_Rooms_in_Hospital" source="CrossTab:Header:Name:Available Extra Rooms in Hospital:Sum:" type="Double" />
+                <Field name="Admission_Deposit" source="CrossTab:Header:Name:Admission_Deposit:Sum:" type="Double" />
+                <Field name="Hospital_code" source="CrossTab:Header:Name:Hospital_code:Sum:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="810" y="101" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="RecordID" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="258" y="88" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>RecordID</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="894" y="101" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Camilla\AppData\Local\Temp\Engine_7412_bc90bfd50462164d888fead65d8ad7a9_\Engine_7412_36ce8045a6dfa24982380725c0a5d5f6~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="235" y="247" width="332" height="151" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Encoding Categorical Variables</Caption>
+          <Style TextColor="#000000" FillColor="#ffe1e1" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="330" y="283" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Hospital_code" selected="True" type="Double" size="8" />
+                <SelectField field="City_Code_Hospital" selected="True" type="Double" size="8" />
+                <SelectField field="Available Extra Rooms in Hospital" selected="True" type="Double" size="8" />
+                <SelectField field="Bed Grade" selected="True" type="Double" size="8" />
+                <SelectField field="patientid" selected="True" type="Double" size="8" />
+                <SelectField field="City_Code_Patient" selected="True" type="Double" size="8" />
+                <SelectField field="Visitors with Patient" selected="True" type="Double" size="8" />
+                <SelectField field="Admission_Deposit" selected="True" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+            <Position x="245" y="282" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldType>Text</FieldType>
+              <Fields orderChanged="False">
+                <Field name="Bed Grade" />
+                <Field name="City_Code_Patient" />
+                <Field name="Age" />
+                <Field name="Stay" />
+                <Field name="case_id" selected="False" />
+                <Field name="Hospital_code" selected="False" />
+                <Field name="Hospital_type_code" selected="False" />
+                <Field name="City_Code_Hospital" selected="False" />
+                <Field name="Hospital_region_code" selected="False" />
+                <Field name="Available Extra Rooms in Hospital" selected="False" />
+                <Field name="Department" selected="False" />
+                <Field name="Ward_Type" selected="False" />
+                <Field name="Ward_Facility_Code" selected="False" />
+                <Field name="patientid" selected="False" />
+                <Field name="Type of Admission" selected="False" />
+                <Field name="Severity of Illness" selected="False" />
+                <Field name="Visitors with Patient" selected="False" />
+                <Field name="Admission_Deposit" selected="False" />
+                <Field name="*Unknown" selected="False" />
+              </Fields>
+              <CopyOutput value="False" />
+              <Expression>IF [_CurrentField_] = Null() THEN ToNumber(0) ELSE [_CurrentField_] ENDIF</Expression>
+              <ChangeFieldType value="False" />
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>IF [_CurrentField_] = Null() THEN ToNumber(0) ELSE [_CurrentF...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+        </Node>
+        <Node ToolID="70">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="414" y="281" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Replace([Hospital_type_code], 'a', '0')" field="Hospital_type_code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Hospital_type_code], 'b', '1')" field="Hospital_type_code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Hospital_type_code], 'c', '2')" field="Hospital_type_code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Hospital_type_code], 'd', '3')" field="Hospital_type_code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Hospital_type_code], 'e', '4')" field="Hospital_type_code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Hospital_type_code], 'f', '5')" field="Hospital_type_code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Hospital_type_code], 'g', '6')" field="Hospital_type_code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Hospital_region_code], 'X', '0')" field="Hospital_region_code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Hospital_region_code], 'Y', '1')" field="Hospital_region_code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Hospital_region_code], 'Z', '2')" field="Hospital_region_code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Department], 'radiotherapy', '0')" field="Department" size="254" type="V_String" />
+                <FormulaField expression="Replace([Department], 'anesthesia', '1')" field="Department" size="254" type="V_String" />
+                <FormulaField expression="Replace([Department], 'gynecology', '2')" field="Department" size="254" type="V_String" />
+                <FormulaField expression="Replace([Department], 'TB &amp; Chest disease', '3')" field="Department" size="254" type="V_String" />
+                <FormulaField expression="Replace([Department], 'surgery', '4')" field="Department" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Type], 'P', '0')" field="Ward_Type" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Type], 'Q', '1')" field="Ward_Type" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Type], 'R', '2')" field="Ward_Type" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Type], 'S', '3')" field="Ward_Type" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Type], 'T', '4')" field="Ward_Type" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Type], 'U', '5')" field="Ward_Type" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Facility_Code], 'A', '0')" field="Ward_Facility_Code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Facility_Code], 'B', '1')" field="Ward_Facility_Code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Facility_Code], 'C', '2')" field="Ward_Facility_Code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Facility_Code], 'D', '3')" field="Ward_Facility_Code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Facility_Code], 'E', '4')" field="Ward_Facility_Code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Ward_Type], 'F', '5')" field="Ward_Facility_Code" size="254" type="V_String" />
+                <FormulaField expression="Replace([Type of Admission], 'Emergency', '0')" field="Type of Admission" size="254" type="V_String" />
+                <FormulaField expression="Replace([Type of Admission], 'Trauma', '1')" field="Type of Admission" size="254" type="V_String" />
+                <FormulaField expression="Replace([Type of Admission], 'Urgent', '2')" field="Type of Admission" size="254" type="V_String" />
+                <FormulaField expression="Replace([Severity of Illness], 'Extreme', '0')" field="Severity of Illness" size="254" type="V_String" />
+                <FormulaField expression="Replace([Severity of Illness], 'Moderate', '1')" field="Severity of Illness" size="254" type="V_String" />
+                <FormulaField expression="Replace([Severity of Illness], 'Minor', '2')" field="Severity of Illness" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], '0-10', '0')" field="Age" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], '11-20', '1')" field="Age" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], '21-30', '2')" field="Age" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], '31-40', '3')" field="Age" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], '41-50', '4')" field="Age" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], '51-60', '5')" field="Age" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], '61-70', '6')" field="Age" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], '71-80', '7')" field="Age" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], '81-90', '8')" field="Age" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], '91-100', '9')" field="Age" size="254" type="V_String" />
+                <FormulaField expression="Replace([Age], 'Nov-20', '0')" field="Age" size="254" type="V_String" />
+                <FormulaField expression="Replace([Stay], '0-10', '0')" field="Stay" size="254" type="V_String" />
+                <FormulaField expression="Replace([Stay], 'Nov-20', '0')" field="Stay" size="254" type="V_String" />
+                <FormulaField expression="Replace([Stay], '11-20', '1')" field="Stay" size="254" type="V_String" />
+                <FormulaField expression="Replace([Stay], '21-30', '2')" field="Stay" size="254" type="V_String" />
+                <FormulaField expression="Replace([Stay], '31-40', '3')" field="Stay" size="254" type="V_String" />
+                <FormulaField expression="Replace([Stay], '41-50', '4')" field="Stay" size="254" type="V_String" />
+                <FormulaField expression="Replace([Stay], '51-60', '5')" field="Stay" size="254" type="V_String" />
+                <FormulaField expression="Replace([Stay], '61-70', '6')" field="Stay" size="254" type="V_String" />
+                <FormulaField expression="Replace([Stay], '71-80', '7')" field="Stay" size="254" type="V_String" />
+                <FormulaField expression="Replace([Stay], '81-90', '8')" field="Stay" size="254" type="V_String" />
+                <FormulaField expression="Replace([Stay], '91-100', '9')" field="Stay" size="254" type="V_String" />
+                <FormulaField expression="Replace([Stay], 'More than 100 Days', '10')" field="Stay" size="254" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>Hospital_type_code = Replace([Hospital_type_code], 'a', '0')
+Hospital_type_code ...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="71">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="498" y="329" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+              <TempFile>C:\Users\Camilla\AppData\Local\Temp\Engine_7412_bc90bfd50462164d888fead65d8ad7a9_\Engine_7412_7d18c068bcca19429099d3b1458ba734~.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="608" y="248" width="268" height="235" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Exploratory Analysis</Caption>
+          <Style TextColor="#000000" FillColor="#ffd9d9" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="57">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="798" y="414" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Camilla\AppData\Local\Temp\Engine_2004_0da3354216174a46a199186b2d968589_\Engine_2004_06726508e71e9249a64fa66f195587fc~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="56">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="798" y="354" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Camilla\AppData\Local\Temp\Engine_7736_5b4388544d9cc24d9d6abb6d81173f06_\Engine_7736_49fca512eba15d47bafab0ce2a94755e~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="55">
+          <GuiSettings>
+            <Position x="690" y="378" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="do target">True</Value>
+              <Value name="target">Stay</Value>
+              <Value name="target level" />
+              <Value name="use fields">"case_id","Hospital_code","Hospital_type_code","City_Code_Hospital","Hospital_region_code","Available_Extra_Rooms_in_Hospital","Department","Ward_Type","Ward_Facility_Code","Bed Grade","patientid","City_Code_Patient","Type of Admission","Severity of Illness","Visitors_with_Patient","Age","Admission_Deposit","Stay"</Value>
+              <Value name="Pearson">True</Value>
+              <Value name="Spearman">False</Value>
+              <Value name="Hoeffding">False</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="702" y="282" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Camilla\AppData\Local\Temp\Engine_7412_bc90bfd50462164d888fead65d8ad7a9_\Engine_7412_ca817fe9818e5c4188995b06b99e127b~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="618" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="True">
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_case_id" selected="True" input="Right_" type="Double" size="8" />
+                    <SelectField field="Left_Hospital_code" selected="True" input="Left_" />
+                    <SelectField field="Right_Hospital_type_code" selected="True" input="Right_" type="Double" size="8" />
+                    <SelectField field="Right_City_Code_Hospital" selected="True" input="Right_" />
+                    <SelectField field="Right_Hospital_region_code" selected="True" input="Right_" type="Double" size="8" />
+                    <SelectField field="Left_Available_Extra_Rooms_in_Hospital" selected="True" input="Left_" />
+                    <SelectField field="Right_Department" selected="True" input="Right_" type="Double" size="8" />
+                    <SelectField field="Right_Ward_Type" selected="True" input="Right_" type="Double" size="8" />
+                    <SelectField field="Right_Ward_Facility_Code" selected="True" input="Right_" type="Double" size="8" />
+                    <SelectField field="Right_Bed Grade" selected="True" input="Right_" />
+                    <SelectField field="Right_patientid" selected="True" input="Right_" />
+                    <SelectField field="Right_City_Code_Patient" selected="True" input="Right_" />
+                    <SelectField field="Right_Type of Admission" selected="True" input="Right_" type="Double" size="8" />
+                    <SelectField field="Right_Severity of Illness" selected="True" input="Right_" type="Double" size="8" />
+                    <SelectField field="Left_Visitors_with_Patient" selected="True" input="Left_" />
+                    <SelectField field="Right_Age" selected="True" input="Right_" type="Double" size="8" />
+                    <SelectField field="Left_Admission_Deposit" selected="True" input="Left_" />
+                    <SelectField field="Right_Stay" selected="True" input="Right_" type="Double" size="8" />
+                    <SelectField field="Right_Hospital_code" selected="False" rename="Right_Hospital_code" input="Right_" />
+                    <SelectField field="Right_Available Extra Rooms in Hospital" selected="False" input="Right_" />
+                    <SelectField field="Right_Visitors with Patient" selected="False" input="Right_" />
+                    <SelectField field="Right_Admission_Deposit" selected="False" rename="Right_Admission_Deposit" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="88">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="762" y="306" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File FileFormat="19" MaxRecords="">C:\Users\Camilla\Downloads\Assignment\healthcare\Joined_train_data.yxdb</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <NoSpatialIndex>False</NoSpatialIndex>
+                <SaveSource>True</SaveSource>
+                <WriteCompatibleVersion>False</WriteCompatibleVersion>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Joined_train_data.yxdb</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="108">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="932" y="236" width="691" height="235" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Modelling</Caption>
+          <Style TextColor="#000000" FillColor="#ffeaea" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="90">
+          <GuiSettings Plugin="Decision_Tree">
+            <Position x="1110" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="curPage">Home</Value>
+              <Value name="curTab">model</Value>
+              <Value name="curToggle">toggle-main</Value>
+              <Value name="display.static">True</Value>
+              <Value name="set_seed_cv">True</Value>
+              <Value name="showClassificationCV">False</Value>
+              <Value name="showWhenTreePlotAvailable">True</Value>
+              <Value name="showWhenAlgorithmAvailable">False</Value>
+              <Value name="use.gini">True</Value>
+              <Value name="use.information">False</Value>
+              <Value name="usesurrogate.0">True</Value>
+              <Value name="usesurrogate.1">False</Value>
+              <Value name="usesurrogate.2">False</Value>
+              <Value name="total.correct">True</Value>
+              <Value name="percent.correct">False</Value>
+              <Value name="model_type">auto</Value>
+              <Value name="auto">True</Value>
+              <Value name="classification">False</Value>
+              <Value name="regression">False</Value>
+              <Value name="tree_summary">Counts</Value>
+              <Value name="Counts">True</Value>
+              <Value name="Proportions">False</Value>
+              <Value name="tree_plot_size">tree.inches</Value>
+              <Value name="tree.inches">True</Value>
+              <Value name="tree.centimeters">False</Value>
+              <Value name="pruning_plot_size">prune.inches</Value>
+              <Value name="prune.inches">True</Value>
+              <Value name="prune.centimeters">False</Value>
+              <Value name="Model Name">Decision_Tree_61</Value>
+              <Value name="Y Var">Stay</Value>
+              <Value name="X Vars">Hospital_code,Hospital_type_code,City_Code_Hospital,Hospital_region_code,Available_Extra_Rooms_in_Hospital,Department,Ward_Type,Ward_Facility_Code,Type of Admission,Severity of Illness,Visitors_with_Patient,Age,Admission_Deposit</Value>
+              <Value name="model.algorithm">rpart</Value>
+              <Value name="posClass">
+              </Value>
+              <Value name="use.weights">False</Value>
+              <Value name="select.weights" />
+              <Value name="splitting_criteria">use.gini</Value>
+              <Value name="surrogate_use">usesurrogate.0</Value>
+              <Value name="surrogate_split_criteria">total.correct</Value>
+              <Value name="min.split">20</Value>
+              <Value name="min.bucket">7</Value>
+              <Value name="xval.folds">10</Value>
+              <Value name="max.depth">20</Value>
+              <Value name="max.bins">
+              </Value>
+              <Value name="set_cp">False</Value>
+              <Value name="cp">0</Value>
+              <Value name="rules">False</Value>
+              <Value name="bands_check">False</Value>
+              <Value name="bands">10</Value>
+              <Value name="subset">False</Value>
+              <Value name="winnow">False</Value>
+              <Value name="GlobalPruning">False</Value>
+              <Value name="fuzzyThreshold">False</Value>
+              <Value name="earlyStopping">False</Value>
+              <Value name="trials">1</Value>
+              <Value name="CF">0.25</Value>
+              <Value name="minCases">2</Value>
+              <Value name="sample">0</Value>
+              <Value name="seed">1</Value>
+              <Value name="use_cv">False</Value>
+              <Value name="numberFolds">5</Value>
+              <Value name="numberTrials">3</Value>
+              <Value name="stratified">False</Value>
+              <Value name="cv_seed">1</Value>
+              <Value name="tree.plot">False</Value>
+              <Value name="Branch Dist">False</Value>
+              <Value name="tree.in.w">5.5</Value>
+              <Value name="tree.in.h">5.5</Value>
+              <Value name="tree.cm.w">13</Value>
+              <Value name="tree.cm.h">14.95</Value>
+              <Value name="tree.graph.resolution">1x</Value>
+              <Value name="tree.pointsize">8</Value>
+              <Value name="prune.plot">False</Value>
+              <Value name="prune.in.w">5.5</Value>
+              <Value name="prune.in.h">5.5</Value>
+              <Value name="prune.cm.w">13</Value>
+              <Value name="prune.cm.h">14.95</Value>
+              <Value name="prune.graph.resolution">1x</Value>
+              <Value name="prune.pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>Decision_Tree_61</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Decision_Tree/Supporting_Macros/Decision_Tree.yxmc" EngineDll="Macro" EngineDllEntryPoint="Decision_Tree/Supporting_Macros/Decision_Tree.yxmc" />
+        </Node>
+        <Node ToolID="109">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="942" y="341" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\Camilla\Downloads\Assignment\healthcare\Joined_train_data.yxdb</File>
+              <FormatSpecificOptions />
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>Joined_train_data.yxdb</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="case_id" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="Double" />
+                <Field name="Hospital_code" source="CrossTab:Header:Name:Hospital_code:Sum:" type="Double" />
+                <Field name="Hospital_type_code" source="Formula: Replace([Hospital_type_code], 'g', '6')" type="Double" />
+                <Field name="City_Code_Hospital" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="Double" />
+                <Field name="Hospital_region_code" source="Formula: Replace([Hospital_region_code], 'Z', '2')" type="Double" />
+                <Field name="Available_Extra_Rooms_in_Hospital" source="CrossTab:Header:Name:Available Extra Rooms in Hospital:Sum:" type="Double" />
+                <Field name="Department" source="Formula: Replace([Department], 'surgery', '4')" type="Double" />
+                <Field name="Ward_Type" source="Formula: Replace([Ward_Type], 'U', '5')" type="Double" />
+                <Field name="Ward_Facility_Code" source="Formula: Replace([Ward_Type], 'F', '5')" type="Double" />
+                <Field name="Bed Grade" source="Formula: IF [_CurrentField_] = Null() THEN ToNumber(0) ELSE [_CurrentField_] ENDIF" type="Double" />
+                <Field name="patientid" source="File: C:\Users\Camilla\Downloads\Assignment\healthcare\train_data.csv" type="Double" />
+                <Field name="City_Code_Patient" source="Formula: IF [_CurrentField_] = Null() THEN ToNumber(0) ELSE [_CurrentField_] ENDIF" type="Double" />
+                <Field name="Type of Admission" source="Formula: Replace([Type of Admission], 'Urgent', '2')" type="Double" />
+                <Field name="Severity of Illness" source="Formula: Replace([Severity of Illness], 'Minor', '2')" type="Double" />
+                <Field name="Visitors_with_Patient" source="CrossTab:Header:Name:Visitors with Patient:Sum:" type="Double" />
+                <Field name="Age" source="Formula: Replace([Age], 'Nov-20', '0')" type="Double" />
+                <Field name="Admission_Deposit" source="CrossTab:Header:Name:Admission_Deposit:Sum:" type="Double" />
+                <Field name="Stay" source="Formula: Replace([Stay], 'More than 100 Days', '10')" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="114">
+          <GuiSettings Plugin="Score">
+            <Position x="1194" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="modelChoice">Local Model</Value>
+              <Value name="score field">
+              </Value>
+              <Value name="is oversampled">False</Value>
+              <Value name="oversampled value">
+              </Value>
+              <Value name="original percent">2</Value>
+              <Value name="log y">False</Value>
+              <Value name="prediction.interval">False</Value>
+              <Value name="interval.level">95</Value>
+              <Value name="append.xdf">False</Value>
+              <Value name="num.records">256000</Value>
+              <Value name="credentials">
+              </Value>
+              <Value name="models">
+              </Value>
+              <Value name="page">
+              </Value>
+              <Value name="errorStatus">
+              </Value>
+              <Value name="modelDetailJSON">
+              </Value>
+              <Value name="modelDetails">{"Name":"","Owner":"","Status":"","Id":"","LastDeployment":"","LastUpdated":"","LatestVersion":"","ActiveVersion":"","NumReplications":"","NumVersions":""}</Value>
+              <Value name="promoteURL">
+              </Value>
+              <Value name="username">
+              </Value>
+              <Value name="model_name">
+              </Value>
+              <Value name="model_owner">
+              </Value>
+              <Value name="apiKey">
+              </Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Score\Supporting_Macros\score-engine.yxmc" EngineDll="Macro" EngineDllEntryPoint="Score\Supporting_Macros\score-engine.yxmc" />
+        </Node>
+        <Node ToolID="117">
+          <GuiSettings>
+            <Position x="1014" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="estimation pct">50</Value>
+              <Value name="validation pct">40</Value>
+              <Value name="rand seed">1</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+        </Node>
+        <Node ToolID="118">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1278" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="POW([Stay]-[Score],2)" field="Difference" size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <AnnotationText><![CDATA[Difference = POW([Stay]-[Score],2)
+]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[Difference = POW([Stay]-[Score],2)
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="119">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1362" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Difference" action="Sum" rename="Sum_Difference" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="120">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1446" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="'Decision Tree'" field="Model" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <AnnotationText><![CDATA[Model = 'Decision Tree'
+]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[Model = 'Decision Tree'
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="143">
+          <GuiSettings Plugin="Score">
+            <Position x="1194" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="modelChoice">Local Model</Value>
+              <Value name="score field">
+              </Value>
+              <Value name="is oversampled">False</Value>
+              <Value name="oversampled value">
+              </Value>
+              <Value name="original percent">2</Value>
+              <Value name="log y">False</Value>
+              <Value name="prediction.interval">False</Value>
+              <Value name="interval.level">95</Value>
+              <Value name="append.xdf">False</Value>
+              <Value name="num.records">256000</Value>
+              <Value name="credentials">
+              </Value>
+              <Value name="models">
+              </Value>
+              <Value name="page">
+              </Value>
+              <Value name="errorStatus">
+              </Value>
+              <Value name="modelDetailJSON">
+              </Value>
+              <Value name="modelDetails">{"Name":"","Owner":"","Status":"","Id":"","LastDeployment":"","LastUpdated":"","LatestVersion":"","ActiveVersion":"","NumReplications":"","NumVersions":""}</Value>
+              <Value name="promoteURL">
+              </Value>
+              <Value name="username">
+              </Value>
+              <Value name="model_name">
+              </Value>
+              <Value name="model_owner">
+              </Value>
+              <Value name="apiKey">
+              </Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Score\Supporting_Macros\score-engine.yxmc" EngineDll="Macro" EngineDllEntryPoint="Score\Supporting_Macros\score-engine.yxmc" />
+        </Node>
+        <Node ToolID="145">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1278" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="POW([Stay]-[Score],2)" field="Difference" size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <AnnotationText><![CDATA[Difference = POW([Stay]-[Score],2)
+]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[Difference = POW([Stay]-[Score],2)
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="146">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1374" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Difference" action="Sum" rename="Sum_Difference" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="147">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1458" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="'Linear Regression'" field="Model" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <AnnotationText><![CDATA[Model = 'Decision Tree'
+]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[Model = 'Linear Regression'
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="149">
+          <GuiSettings Plugin="Linear_Regression">
+            <Position x="1110" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="curPage">Home</Value>
+              <Value name="curTab">advanced</Value>
+              <Value name="standardize_pred">True</Value>
+              <Value name="internal_cv">True</Value>
+              <Value name="display_graphs">True</Value>
+              <Value name="set_seed_internal_cv">True</Value>
+              <Value name="set_seed_external_cv">True</Value>
+              <Value name="lambda_1se">True</Value>
+              <Value name="lambda_min">False</Value>
+              <Value name="Model Name">Linear_Regression_131</Value>
+              <Value name="Y Var">Stay</Value>
+              <Value name="X Vars">Hospital_code,Hospital_type_code,City_Code_Hospital,Hospital_region_code,Available_Extra_Rooms_in_Hospital,Department,Ward_Type,Ward_Facility_Code,Type of Admission,Severity of Illness,Visitors_with_Patient,Age,Admission_Deposit</Value>
+              <Value name="Omit Constant">False</Value>
+              <Value name="Use Weights">False</Value>
+              <Value name="Weight Vec" />
+              <Value name="regularization">False</Value>
+              <Value name="alpha">0.5</Value>
+              <Value name="nfolds">5</Value>
+              <Value name="lambda">lambda_1se</Value>
+              <Value name="seed_internal_cv">1</Value>
+              <Value name="lambda_no_cv">0.5</Value>
+              <Value name="external_cv">False</Value>
+              <Value name="nfolds_external">5</Value>
+              <Value name="numberTrials">3</Value>
+              <Value name="external_seed_value">1</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>Linear_Regression_131</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" />
+        </Node>
+        <Node ToolID="151">
+          <GuiSettings Plugin="Score">
+            <Position x="1206" y="402" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="modelChoice">Local Model</Value>
+              <Value name="score field">
+              </Value>
+              <Value name="is oversampled">False</Value>
+              <Value name="oversampled value">
+              </Value>
+              <Value name="original percent">2</Value>
+              <Value name="log y">False</Value>
+              <Value name="prediction.interval">False</Value>
+              <Value name="interval.level">95</Value>
+              <Value name="append.xdf">False</Value>
+              <Value name="num.records">256000</Value>
+              <Value name="credentials">
+              </Value>
+              <Value name="models">
+              </Value>
+              <Value name="page">
+              </Value>
+              <Value name="errorStatus">
+              </Value>
+              <Value name="modelDetailJSON">
+              </Value>
+              <Value name="modelDetails">{"Name":"","Owner":"","Status":"","Id":"","LastDeployment":"","LastUpdated":"","LatestVersion":"","ActiveVersion":"","NumReplications":"","NumVersions":""}</Value>
+              <Value name="promoteURL">
+              </Value>
+              <Value name="username">
+              </Value>
+              <Value name="model_name">
+              </Value>
+              <Value name="model_owner">
+              </Value>
+              <Value name="apiKey">
+              </Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Score\Supporting_Macros\score-engine.yxmc" EngineDll="Macro" EngineDllEntryPoint="Score\Supporting_Macros\score-engine.yxmc" />
+        </Node>
+        <Node ToolID="153">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1290" y="402" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="POW([Stay]-[Score],2)" field="Difference" size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <AnnotationText><![CDATA[Difference = POW([Stay]-[Score],2)
+]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[Difference = POW([Stay]-[Score],2)
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="154">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1386" y="402" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Difference" action="Sum" rename="Sum_Difference" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="155">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1470" y="402" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="'Boosted Model'" field="Model" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <AnnotationText><![CDATA[Model = 'Decision Tree'
+]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[Model = 'Boosted Model'
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="157">
+          <GuiSettings>
+            <Position x="1110" y="389" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="model.name">Boosted</Value>
+              <Value name="select.target">Stay</Value>
+              <Value name="select.predictors">case_id=False,Hospital_code=True,Hospital_type_code=True,City_Code_Hospital=True,Hospital_region_code=True,Available_Extra_Rooms_in_Hospital=True,Department=True,Ward_Type=True,Ward_Facility_Code=True,Bed Grade=False,patientid=False,City_Code_Patient=False,Type of Admission=True,Severity of Illness=True,Visitors_with_Patient=True,Age=True,Admission_Deposit=True,Stay=False</Value>
+              <Value name="use.weights">False</Value>
+              <Value name="select.weights">case_id</Value>
+              <Value name="marginal.plots">False</Value>
+              <Value name="plot.min.importance">2.5</Value>
+              <Value name="type.distribution">False</Value>
+              <Value name="type.continuous">True</Value>
+              <Value name="dist.gaussian">True</Value>
+              <Value name="dist.laplace">False</Value>
+              <Value name="dist.t">False</Value>
+              <Value name="t.df">4</Value>
+              <Value name="type.count">False</Value>
+              <Value name="type.binomial">False</Value>
+              <Value name="dist.bernoulli">True</Value>
+              <Value name="dist.adaboost">False</Value>
+              <Value name="type.multinomial">False</Value>
+              <Value name="n.trees">4000</Value>
+              <Value name="assess.cv">True</Value>
+              <Value name="num.folds">5</Value>
+              <Value name="n.cores">1</Value>
+              <Value name="assess.test">False</Value>
+              <Value name="train.fraction">50.0</Value>
+              <Value name="assess.oob">False</Value>
+              <Value name="bag.fraction">50.0</Value>
+              <Value name="shrinkage">0.0020</Value>
+              <Value name="interaction.depth">1</Value>
+              <Value name="n.minobsinnode">10</Value>
+              <Value name="rand.seed">1</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Boosted_Model.yxmc" />
+        </Node>
+        <Node ToolID="158">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1554" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="159" Connection="Output" />
+      <Destination ToolID="162" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="161" Connection="Output" />
+      <Destination ToolID="160" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="171" Connection="Output" />
+      <Destination ToolID="160" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="162" Connection="Output" />
+      <Destination ToolID="163" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="163" Connection="Output" />
+      <Destination ToolID="161" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="163" Connection="Output" />
+      <Destination ToolID="172" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="160" Connection="Join" />
+      <Destination ToolID="174" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="177" Connection="Output" />
+      <Destination ToolID="181" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="180" Connection="Output" />
+      <Destination ToolID="181" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="179" Connection="Output" />
+      <Destination ToolID="192" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="181" Connection="Output" />
+      <Destination ToolID="191" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="191" Connection="Output" />
+      <Destination ToolID="190" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="192" Connection="Estimation" />
+      <Destination ToolID="180" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="165" Connection="Output" />
+      <Destination ToolID="166" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="165" Connection="Output" />
+      <Destination ToolID="167" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="166" Connection="Output" />
+      <Destination ToolID="167" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="167" Connection="Join" />
+      <Destination ToolID="168" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="168" Connection="Output" />
+      <Destination ToolID="169" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="169" Connection="Output" />
+      <Destination ToolID="170" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="170" Connection="Output" />
+      <Destination ToolID="171" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="172" Connection="Output" />
+      <Destination ToolID="165" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="37" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="37" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Join" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="47" Connection="Left" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="47" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Correlation Matrix" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Join" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Join" />
+      <Destination ToolID="88" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Join" />
+      <Destination ToolID="55" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="90" Connection="Output" />
+      <Destination ToolID="114" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="117" Connection="Validation" />
+      <Destination ToolID="114" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="109" Connection="Output" />
+      <Destination ToolID="117" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="114" Connection="Output" />
+      <Destination ToolID="118" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="117" Connection="Estimation" />
+      <Destination ToolID="90" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="117" Connection="Estimation" />
+      <Destination ToolID="149" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="117" Connection="Estimation" />
+      <Destination ToolID="157" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="117" Connection="Validation" />
+      <Destination ToolID="143" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="149" Connection="Output" />
+      <Destination ToolID="143" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="117" Connection="Validation" />
+      <Destination ToolID="151" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="157" Connection="Output" />
+      <Destination ToolID="151" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="118" Connection="Output" />
+      <Destination ToolID="119" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="119" Connection="Output" />
+      <Destination ToolID="120" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="120" Connection="Output" />
+      <Destination ToolID="158" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="147" Connection="Output" />
+      <Destination ToolID="158" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="155" Connection="Output" />
+      <Destination ToolID="158" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="143" Connection="Output" />
+      <Destination ToolID="145" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="145" Connection="Output" />
+      <Destination ToolID="146" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="146" Connection="Output" />
+      <Destination ToolID="147" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="151" Connection="Output" />
+      <Destination ToolID="153" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="153" Connection="Output" />
+      <Destination ToolID="154" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="154" Connection="Output" />
+      <Destination ToolID="155" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="5b2b1b8f-e5cd-4509-8195-88908b4d8816" />
+      <Telemetry>
+        <PreviousWorkflowId value="d5e07802-a535-4947-a13d-34729765af90" />
+        <OriginWorkflowId value="e74b0caa-9def-4bbb-9d5e-5b88ce56f3a6" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
